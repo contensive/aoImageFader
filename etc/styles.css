@@ -1,0 +1,40 @@
+#imageFader{
+}
+ul#imageFader {
+    height: 320px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 610px;
+	overflow: hidden;
+	}
+#imageFader > li {
+    margin: 0;
+    padding: 0;
+}
+#imageFader > li img.ifImage {
+}
+#imageFader > li div.ifText {
+	background-color: #C8D4E0;
+	position: absolute;
+	top: 245px;
+	left: 0;
+	height: 75px;
+    width: 590px;
+	padding: 5px 10px 0;
+}
+#imageFader > li div.ifText h1 {
+	background-color: transparent;
+    color: #E06410;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+#imageFader > li div.ifText p {
+	background-color: transparent;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
